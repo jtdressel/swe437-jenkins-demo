@@ -28,7 +28,7 @@ public class Student {
 			if(name.equals("") || favoriteNumber<0)
 				throw new IllegalArgumentException();
 			this.name = name;
-			this.favoriteNumber = favoriteNumber;
+			//Comented out to break tests this.favoriteNumber = favoriteNumber;
 		}
 		
 		public String getName() {
